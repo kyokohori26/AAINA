@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-cream: #FBF8F3;
+  --mirror-blue: #5B8DEF;
+  --font-scale: 1;
+}
+
+body {
+  background-color: var(--bg-cream);
+  color: #2B2D42;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Notebook ruled lines style for Diary */
+.notebook-paper {
+  background-color: #FFFFFF;
+  background-image: linear-gradient(#ECE6DC 1px, transparent 1px);
+  background-size: 100% 36px;
+  line-height: 36px;
+  background-attachment: local;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #ECE6DC;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8A9F0;
+}
+
+/* Handwriting font utility */
+.font-handwriting {
+  font-family: 'Caveat', cursive;
+}
+
+/* Focus styles */
+button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid #5B8DEF;
+  outline-offset: 2px;
+}
+
+/* Tap target accessibility */
+.tap-target {
+  min-height: 44px;
+  min-width: 44px;
+}
