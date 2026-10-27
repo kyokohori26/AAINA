@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Aaina (आईना) – An AI Diary That Listens, Remembers, and Replies
 ### *Powered by Google Gemma 4 (Open-Weight Model)*
 
@@ -202,7 +201,3 @@ This tests:
 
 ## 8. License & Disclaimer
 Aaina is built for self-reflection, mindfulness, and personal expression. It is not a clinical medical diagnostic tool or licensed psychotherapist. If you or someone you know is in crisis, please call Tele-MANAS at **14416** (India) or 988 (USA).
-=======
-# AAINA
-Aaina ("mirror") is a diary app where the user writes about their day and feelings, and Aaina replies with warmth and understanding, in the voice the user chooses, using what it has learned about them over time..
->>>>>>> origin/main
